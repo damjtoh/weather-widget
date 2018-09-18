@@ -63,7 +63,7 @@ Check out others script at the root `package.json` file:
     "start-client": "cd client/ && npm run start",
     "prestart": "npm run build-both",
     "lint": "eslint src",
-    "lint-client": "cd client/ && npm run eslint src",
+    "lint-client": "cd client/ && eslint src",
     "test": "mocha --require babel-core/register --require should --timeout 10000 --watch --recursive './src/tests/*.test.js'",
     "test-client": "cd client/ && npm run test",
     "build-client": "cd client/ && npm run build && mv build ../dist/client",
