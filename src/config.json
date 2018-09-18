@@ -1,0 +1,32 @@
+{
+  "port": 8080,
+  "bodyLimit": "100kb",
+  "corsHeaders": ["Link"],
+  "citiesMap": {
+    "cordoba": {
+      "city": "Cordoba",
+      "lat": -31.417339,
+      "lon": -64.183319
+    },
+    "rosario": {
+      "city": "Rosario",
+      "lat": -32.9595,
+      "lon": -60.661542
+    },
+    "mendoza": {
+      "city": "Mendoza",
+      "lat": -32.890974,
+      "lon": -68.845606
+    },
+    "ushuaia": {
+      "city": "Ushuaia",
+      "lat": -54.806933,
+      "lon": -68.307325
+    },
+    "salta": {
+      "city": "Salta",
+      "lat": -24.782127,
+      "lon": -65.423195
+    }
+  }
+}
