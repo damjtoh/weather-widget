@@ -62,7 +62,6 @@
     "resource-router-middleware": "^0.6.0"
   },
   "devDependencies": {
-    "@babel/preset-env": "^7.1.0",
     "babel-cli": "^6.9.0",
     "babel-core": "^6.9.0",
     "babel-eslint": "^9.0.0",
